@@ -15,6 +15,7 @@
 		5F1895051F300C69002F045C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1895041F300C69002F045C /* main.m */; };
 		5F18950F1F300C6A002F045C /* CoreLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F18950E1F300C6A002F045C /* CoreLocationTests.m */; };
 		5F18951A1F300C6A002F045C /* CoreLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1895191F300C6A002F045C /* CoreLocationUITests.m */; };
+		5F1895291F300C90002F045C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1895281F300C90002F045C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5F1895151F300C6A002F045C /* CoreLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1895191F300C6A002F045C /* CoreLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationUITests.m; sourceTree = "<group>"; };
 		5F18951B1F300C6A002F045C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1895281F300C90002F045C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1895291F300C90002F045C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				5F18950D1F300C6A002F045C /* CoreLocationTests */,
 				5F1895181F300C6A002F045C /* CoreLocationUITests */,
 				5F1894F31F300C69002F045C /* Products */,
+				5F1895271F300C90002F045C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				5F18951B1F300C6A002F045C /* Info.plist */,
 			);
 			path = CoreLocationUITests;
+			sourceTree = "<group>";
+		};
+		5F1895271F300C90002F045C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F1895281F300C90002F045C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
